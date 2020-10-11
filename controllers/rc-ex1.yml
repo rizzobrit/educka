@@ -4,7 +4,7 @@ metadata:
   name: tomcatrc
 spec:
   replicas: 3
-  selector:
+  selector:     # it is the label 
     app: tomcat
   template:
     metadata:
